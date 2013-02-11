@@ -4,7 +4,7 @@ sexy paradigms, including:
 
     - :wikipedia:`Representational State Transfer`
 
-      Yes, we :wikipedia:`HATEOAS`, too.
+      Yes, we `HATEOAS <http://en.wikipedia.org/wiki/HATEOAS>`__, too.
 
     - :wikipedia:`Functional programming`
 
