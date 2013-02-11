@@ -246,12 +246,30 @@ texinfo_documents = [
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
 
-
-# Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
     # Python SDK docs
     'python'     : ( 'http://docs.python.org/2/', None ),
 }
+
+def map_rtfd_subprojects (url, project, subprojects):
+    """
+    Generic helper to map Intersphinx inventories for several
+    ReadTheDocs.org sub-projects.
+
+    **TODO:** move this into our shared Sphinx helpers
+    """
+    def urlfor (subproject, lang='en', version='latest', project=project):
+        return rtfd % locals()
+
+    return dict((subproject, (urlfor(subproject), None))
+                for subproject in subprojects)
+
+rtfd = 'http://%(project)s.readthedocs.org/projects/%(subproject)s/%(lang)s/%(version)s'
+
+# Intersphinx the Agoraplex platform docs
+project = 'agoraplex'
+subprojects = ('predicates',)
+intersphinx_mapping.update(map_rtfd_subprojects(rtfd, project, subprojects))
 
 autodoc_default_flags = ['members', 'undoc-members']
 add_module_names = False
