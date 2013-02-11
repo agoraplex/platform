@@ -1,4 +1,3 @@
-
 The `Agoraplex` platform is a collection of tools for building
 applications in Python based on a healthy mix of idiomatic Python and
 sexy paradigms, including:
@@ -10,6 +9,11 @@ sexy paradigms, including:
     - :wikipedia:`Functional programming`
 
       ...especially :wikipedia:`Function composition (computer science)`
+
+
+Core philosophies embodied in the platform (i.e., our `favorite
+Kool-Aid flavors
+<http://en.wikipedia.org/wiki/Drinking_the_Kool-Aid>`__):
 
     - `Small pieces, loosely joined <http://www.smallpieces.com/>`__.
 

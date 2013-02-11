@@ -7,6 +7,9 @@
  The `Agoraplex` Platform
 ==========================
 
+Overview
+========
+
 .. include:: narr/blurb.rst
 
 Although designed to function independently, the web application
@@ -17,19 +20,17 @@ Unless otherwise specified, `Agoraplex` platform components are
 licensed under the BSD "3-clause" license. See :doc:`LICENSE` for
 details.
 
+
+Components
+==========
+
 The platform consists of:
 
-   - `predicates <projects/predicates/en/latest>`__
+   - :ref:`predicates <predicates:index>` A collection of predicate
+     factories, functions, and partials, for functional programming.
 
-     A collection of predicate factories, functions, and partials, for
-     functional programming.
-
-   - `capsec`:
-
-     `(forthcoming)`
-
-     An :wikipedia:`object-capability model` toolkit for sharing
-     secure *interprocess* references.
+   - `capsec` `(forthcoming)`: An :wikipedia:`object-capability model`
+     toolkit for sharing secure *interprocess* references.
 
 
 .. add non-toc includes in a hidden toc to avoid warnings (borrowed
