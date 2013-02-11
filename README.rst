@@ -1,6 +1,6 @@
-==============
- The Metaplex
-==============
+========================
+ The Agoraplex Platform
+========================
 
 This is the meta-project for Agoraplex platform components. Not that
 you know what the `Agoraplex platform` is (yet).

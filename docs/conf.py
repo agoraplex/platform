@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Agoraplex Platform Meta-project documentation build configuration file, created by
+# Agoraplex Platform documentation build configuration file, created by
 # sphinx-quickstart2 on Fri Jan 11 20:37:25 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Agoraplex Platform Meta-project'
+project = u'Agoraplex Platform'
 copyright = u'2013, Tripp Lilley'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -100,7 +100,7 @@ html_theme = 'agoraplex'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'github_url': 'https://github.com/agoraplex/metaplex',
+    'github_url': 'https://github.com/agoraplex/platform',
     }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -169,7 +169,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'AgoraplexPlatformMetaPackagedoc'
+htmlhelp_basename = 'AgoraplexPlatformdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -188,7 +188,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'AgoraplexPlatformMetaPackage.tex', u'Agoraplex Platform Meta-package Documentation',
+  ('index', 'AgoraplexPlatform.tex', u'Agoraplex Platform Documentation',
    u'Tripp Lilley', 'manual'),
 ]
 
@@ -218,7 +218,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'agoraplexplatformmetapackage', u'Agoraplex Platform Meta-package Documentation',
+    ('index', 'agoraplexplatform', u'Agoraplex Platform Documentation',
      [u'Tripp Lilley'], 1)
 ]
 
@@ -232,8 +232,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'AgoraplexPlatformMetaPackage', u'Agoraplex Platform Meta-package Documentation',
-   u'Tripp Lilley', 'AgoraplexPlatformMetaPackage', 'The Agoraplex Platform Meta-package.',
+  ('index', 'AgoraplexPlatform', u'Agoraplex Platform Documentation',
+   u'Tripp Lilley', 'AgoraplexPlatform', 'The Agoraplex Platform.',
    'Miscellaneous'),
 ]
 

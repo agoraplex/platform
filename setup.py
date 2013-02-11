@@ -19,13 +19,13 @@ with open("requirements.rtfd.txt", "w") as rtfd:
 
 
 setup(
-    name='metaplex',
+    name='agoraplex.platform',
     version='0.0.0',
     author='Tripp Lilley',
     author_email='tripplilley@gmail.com',
     packages=[],
     namespace_packages=[],
-    url='https://github.com/agoraplex/metaplex',
+    url='https://github.com/agoraplex/platform',
     license='BSD',
     description='Meta-project for Agoraplex platform components.',
     long_description=open('README.rst').read(),

@@ -79,17 +79,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/AgoraplexPredicates.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/AgoraplexPlatform.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/AgoraplexPredicates.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/AgoraplexPlatform.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/AgoraplexPredicates"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/AgoraplexPredicates"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/AgoraplexPlatform"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/AgoraplexPlatform"
 	@echo "# devhelp"
 
 epub:
