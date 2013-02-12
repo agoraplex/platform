@@ -264,7 +264,7 @@ def map_rtfd_subprojects (url, project, subprojects):
     return dict((subproject, (urlfor(subproject), None))
                 for subproject in subprojects)
 
-rtfd = 'http://%(project)s.readthedocs.org/projects/%(subproject)s/%(lang)s/%(version)s'
+rtfd = 'http://docs.agoraplex.net/projects/%(subproject)s/%(lang)s/%(version)s'
 
 # Intersphinx the Agoraplex platform docs
 project = 'agoraplex'

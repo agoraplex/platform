@@ -26,10 +26,10 @@ Components
 
 The platform consists of:
 
-   - :ref:`predicates <predicates:index>` A collection of predicate
+   - :ref:`predicates <predicates:index>` `:` A collection of predicate
      factories, functions, and partials, for functional programming.
 
-   - `capsec` `(forthcoming)`: An :wikipedia:`object-capability model`
+   - `capsec` `(forthcoming) :` An :wikipedia:`object-capability model`
      toolkit for sharing secure *interprocess* references.
 
 
