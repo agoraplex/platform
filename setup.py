@@ -12,9 +12,8 @@ requirements = {
         },
     }
 
-
 # write requirements for ReadTheDocs...
-with open("requirements.rtfd.txt", "w") as rtfd:
+with open("reqs/rtfd.txt", "w") as rtfd:
     rtfd.write('\n'.join(requirements['extras']['docs']) + '\n')
 
 
