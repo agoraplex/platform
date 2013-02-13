@@ -26,11 +26,14 @@ Components
 
 The platform consists of:
 
-   - :ref:`predicates <predicates:index>` `:` A collection of predicate
-     factories, functions, and partials, for functional programming.
+   - :ref:`anodi <anodi:index>` `:` A decorator-based backport of
+     PEP-3107 function annotations to Python 2.7, and related tools.
 
    - `capsec` `(forthcoming) :` An :wikipedia:`object-capability model`
      toolkit for sharing secure *interprocess* references.
+
+   - :ref:`predicates <predicates:index>` `:` A collection of predicate
+     factories, functions, and partials, for functional programming.
 
 
 .. add non-toc includes in a hidden toc to avoid warnings (borrowed

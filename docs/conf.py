@@ -268,7 +268,7 @@ rtfd = 'http://docs.agoraplex.net/projects/%(subproject)s/%(lang)s/%(version)s'
 
 # Intersphinx the Agoraplex platform docs
 project = 'agoraplex'
-subprojects = ('predicates',)
+subprojects = ('anodi', 'predicates',)
 intersphinx_mapping.update(map_rtfd_subprojects(rtfd, project, subprojects))
 
 autodoc_default_flags = ['members', 'undoc-members']
